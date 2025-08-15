@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio profissional de desenvolvedor front-end especializado em React, JavaScript, HTML e CSS">
+    <title>Portfólio - Desenvolvedor Front-end</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Gabriel Nojoza</div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <div class="profile-image">
+                <img src="perfil (1).jpg" alt="Foto do Desenvolvedor" class="avatar">
+            </div>
+            <h1 class="typing-text">Desenvolvedor Front-end</h1>
+            <p class="subtitle">Transformando ideias em experiências digitais memoráveis</p>
+            <div class="tech-stack">
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js" title="JavaScript"></i>
+            </div>
+            <div class="cta-buttons">
+                <a href="#projetos" class="cta-button primary">Ver Projetos</a>
+                <a href="#contato" class="cta-button secondary">Contato</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="highlight">Olá! Sou um desenvolvedor front-end apaixonado por criar experiências
+                        digitais incríveis.</p>
+                    <p>Estou em constante aprendizado e desenvolvimento, focado em construir interfaces modernas e
+                        responsivas. Busco oportunidades para aplicar meus conhecimentos em projetos reais e contribuir
+                        com soluções criativas.</p>
+                    <div class="key-points">
+                        <div class="point">
+                            <i class="fas fa-code"></i>
+                            <h3>Desenvolvimento Clean</h3>
+                            <p>Código limpo e bem documentado</p>
+                        </div>
+                        <div class="point">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Design Responsivo</h3>
+                            <p>Layouts adaptáveis para todos os dispositivos</p>
+                        </div>
+                        <div class="point">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Otimização</h3>
+                            <p>Performance e SEO otimizados</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-section" data-aos="fade-left">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5/CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ...existing code... -->
+    <section id="projetos" class="projects">
+        <div class="container">
+            <h2 data-aos="fade-up">Meus Projetos</h2>
+            <p class="projects-intro" data-aos="fade-up">
+                Aqui estão alguns dos projetos que desenvolvi. Cada projeto representa minha dedicação em aprender e
+                aplicar novas tecnologias. Fique à vontade para explorar o código fonte no GitHub ou ver a demonstração
+                ao vivo.
+            </p>
+            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="react">HTML</button>
+                <button class="filter-btn" data-filter="javascript">JavaScript</button>
+                <button class="filter-btn" data-filter="ui">CSS</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card" data-aos="fade-up" data-category="javascript">
+                    <div class="project-image">
+                        <img src="senas.png" alt="Portfólio Loja">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://gabriel-nojoza.github.io/Senas-Basic/" target="_blank"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Interface Loja</h3>
+                        <p>Um pequena interface para uma loja de moda feminina que direiciona para o instagram da loja.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card" data-aos="fade-up" data-category="javascript">
+                    <div class="project-image">
+                        <img src="barbearia.jpg" alt="Sistema de Agendamento de Barbearia">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://gabriel-nojoza.github.io/Barbearia//" target="_blank"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sistema de Agendamento</h3>
+                        <p>Um sistema para barbearia, permitindo que clientes agendem horários para cortes de cabelo.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card" data-aos="fade-up" data-category="javascript">
+                    <div class="project-image">
+                        <img src="ham.png" alt="App de Hamburgueria">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://gabriel-nojoza.github.io/mega-burger/" target="_blank"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>App Hamburgueria</h3>
+                        <p>Um app para pedidos de uma hamburgueria, com sistema completo de pedidos.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 4 -->
+                 <div class="project-card" data-aos="fade-up" data-category="javascript">
+                    <div class="project-image">
+                        <img src="power.png" alt="App loja de acessórios para carro">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://gabriel-nojoza.github.io/Power-Leds/" target="_blank"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>App Power Leds</h3>
+                        <p>Um app para loja uma que vende acessórios para carro.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>GC Dev</h3>
+                    <p>Desenvolvedor Front-end</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/gabriel-nojoza-4710b5286/?trk=opento_sprofile_details" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Gabriel-Nojoza" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GC Dev. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
